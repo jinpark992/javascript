@@ -113,7 +113,7 @@ function findSmallestElement1(arr) {
     for(let i=0; i<unit.length;i++){
       let num = Math.floor(money/unit[i]) // math.floor는 소수점 버림을 뜻함
       console.log(`${unit[i]}X${num}`)
-      money = money - (unit[i] * num) // 돈의값을 재할당할거임.
+      money = money - (unit[i] * num) // 돈의값을 재할당할거임. num은 몫임.
     }
 
   }
